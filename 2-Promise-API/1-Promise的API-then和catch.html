@@ -7,7 +7,6 @@
 </head>
 <body>
     <script>
-        //
         let p = new Promise((resolve, reject) => {
             // ** 同步调用
             // console.log(111);
@@ -17,7 +16,9 @@
 
         // console.log(222);
 
-        //执行 catch 方法
+        // 执行 catch 方法
+        // 只能返回失败的回调函数
+        // 内部封装的是then方法
         p.catch(reason => {
             console.log(reason);
         });
