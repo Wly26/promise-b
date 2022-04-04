@@ -1,14 +1,16 @@
 //声明构造函数
 function Promise(executor){
+
+    // 声明两个函数
+
     //resolve 函数
     function resolve(data){
-
     }
     //reject 函数
     function reject(data){
-
     }
 
+    
     //同步调用『执行器函数』
     executor(resolve, reject);
 }

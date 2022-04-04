@@ -1,4 +1,4 @@
-
+// 这里的Promise，覆盖了Promise对象
 function Promise(executor){
 
 }
